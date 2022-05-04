@@ -76,10 +76,7 @@ html {
 
   
 
-      @font-face {
-        font-family:"Public Sans";
-        src: url("assets/images/PPHatton-Bold.otf") format("otf"),
-       }
+   
 
        @font-face {
         font-family: "Hatton Semibold";

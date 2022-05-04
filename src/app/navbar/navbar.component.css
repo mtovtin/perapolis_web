@@ -24,10 +24,7 @@ li a {
 li {
 }
 
-@font-face {
-  font-family: "Hatton Bold";
-  src: url("assets/images/PPHatton-Bold.otf") format("otf");
-}
+
 
 .hor {
   width: 1px;
