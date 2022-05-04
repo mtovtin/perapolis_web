@@ -363,5 +363,20 @@ padding-bottom: 150px;
   #logo img{
   width: 25em;
   }  
+
+  @media (max-width: 600px) {
+#pic1{
+  width: 70%;
+}
+#pic2{
+  width: 70%;
+}
+#pic3{
+  width: 70%;
+}
+#pic4{
+  width: 70%;
+}
+  }
   
 }
