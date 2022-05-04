@@ -26,7 +26,7 @@ export class Gt3Component implements OnInit {
   }
   goToNext(bn: string | undefined){
     this.answersService.goods = bn;
-    this.router.navigateByUrl('/gt4-component')
+    this.router.navigateByUrl('gt4-component')
   }
 
 }

@@ -25,6 +25,6 @@ export class Gt6Component implements OnInit {
   }
   goToNext(bn: string | undefined){
     this.answersService.age = bn;
-    this.router.navigateByUrl('/gt7-component')
+    this.router.navigateByUrl('gt7-component')
   }
 }

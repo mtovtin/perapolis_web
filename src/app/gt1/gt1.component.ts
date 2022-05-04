@@ -25,7 +25,7 @@ export class Gt1Component implements OnInit {
 
   goToNext(bn: string | undefined){
     this.answersService.brandName = bn;
-    this.router.navigateByUrl('/gt2-component')
+    this.router.navigateByUrl('gt2-component')
   }
 
 }

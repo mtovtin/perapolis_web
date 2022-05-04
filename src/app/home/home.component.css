@@ -4,7 +4,7 @@ html {
   height: 100vw;
   min-height: 100%;
   min-width: 100%;
-  background-image: url("/../assets/images/background.png");
+  background-image: url("assets/images/background.png");
   background-size: 100vw auto;
   background-repeat: no-repeat;
 }
@@ -16,7 +16,7 @@ html {
     height: 1000px;
     min-height: 10%;
     min-width: 10%;
-    background-image: url("/../assets/images/background.png");
+    background-image: url("assets/images/background.png");
     background-size: cover;
     background-position: center center;
   }
@@ -118,7 +118,7 @@ nav .show {
   color: white;
 
   padding-bottom: 20px;
-  background-image: url("/../assets/images/blurab.png");
+  background-image: url("assets/images/blurab.png");
 
 }
 
@@ -152,17 +152,17 @@ li a {
 
 @font-face {
   font-family: "Hatton Semibold";
-  src: local("Hatton Semibold"), url(/../assets/images/PPHatton-Semibold.otf) format("otf");
+  src: local("Hatton Semibold"), url(assets/images/PPHatton-Semibold.otf) format("otf");
 }
 
 @font-face {
   font-family: "Hatton Bold";
-  src: local("Hatton Bold"), url(/../assets/images/PPHatton-Bold.otf) format("otf");
+  src: local("Hatton Bold"), url(assets/images/PPHatton-Bold.otf) format("otf");
 }
 
 @font-face {
   font-family: "Hatton Medium";
-  src: local("Hatton Medium"), url(/../assets/images/PPHatton-Medium.otf) format("otf");
+  src: local("Hatton Medium"), url(assets/images/PPHatton-Medium.otf) format("otf");
 }
 
 .hor {

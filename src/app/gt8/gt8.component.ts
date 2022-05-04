@@ -25,7 +25,7 @@ export class Gt8Component implements OnInit {
   }
   goToNext(bn: string | undefined){
     this.answersService.proposition = bn;
-    this.router.navigateByUrl('/gt9-component')
+    this.router.navigateByUrl('gt9-component')
   }
 
 }

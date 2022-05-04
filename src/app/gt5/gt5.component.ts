@@ -25,7 +25,7 @@ export class Gt5Component implements OnInit {
   }
   goToNext(bn: string | undefined){
     this.answersService.clients = bn;
-    this.router.navigateByUrl('/gt6-component')
+    this.router.navigateByUrl('gt6-component')
   }
 
   

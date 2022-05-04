@@ -25,7 +25,7 @@ export class Gt7Component implements OnInit {
   }
   goToNext(bn: string | undefined){
     this.answersService.communication = bn;
-    this.router.navigateByUrl('/gt8-component')
+    this.router.navigateByUrl('gt8-component')
   }
 
 }

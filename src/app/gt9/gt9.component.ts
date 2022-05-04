@@ -32,7 +32,7 @@ export class Gt9Component implements OnInit {
   }
   goToNext(bn: string | undefined){
     this.answersService.reason = bn;
-    this.router.navigateByUrl('/gt10-component')
+    this.router.navigateByUrl('gt10-component')
   }
 
 }

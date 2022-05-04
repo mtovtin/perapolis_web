@@ -23,7 +23,7 @@ export class Gt2Component implements OnInit {
   }
   goToNext(bn: string | undefined){
     this.answersService.category = bn;
-    this.router.navigateByUrl('/gt3-component')
+    this.router.navigateByUrl('gt3-component')
   }
  
 }

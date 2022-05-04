@@ -67,7 +67,7 @@ nav {
     color: white;
   
     padding-bottom: 20px;
-    background-image: url("/../assets/images/blurab.png");
+    background-image: url("assets/images/blurab.png");
   
   }
   
@@ -79,17 +79,17 @@ nav {
 
   @font-face {
     font-family: "Hatton Semibold";
-    src: local("Hatton Semibold"), url(/../assets/images/PPHatton-Semibold.otf) format("otf");
+    src: local("Hatton Semibold"), url(assets/images/PPHatton-Semibold.otf) format("otf");
   }
   
   @font-face {
     font-family: "Hatton Ultralight";
-    src: local("Hatton Ultralight"), url(/../assets/images/PPHatton-Ultralight.otf) format("otf");
+    src: local("Hatton Ultralight"), url(assets/images/PPHatton-Ultralight.otf) format("otf");
   }
   
   @font-face {
     font-family: "Hatton Medium";
-    src: local("Hatton Medium"), url(/../assets/images/PPHatton-Medium.otf) format("otf");
+    src: local("Hatton Medium"), url(assets/images/PPHatton-Medium.otf) format("otf");
   }
 .hor {
   width: 1px;
