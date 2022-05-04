@@ -152,17 +152,17 @@ li a {
 
 @font-face {
   font-family: "Hatton Semibold";
-  src: local("Hatton Semibold"), url(assets/images/PPHatton-Semibold.otf) format("otf");
+  src: local("Hatton Semibold"), url("assets/images/PPHatton-Semibold.otf") format("otf");
 }
 
 @font-face {
   font-family: "Hatton Bold";
-  src: local("Hatton Bold"), url(assets/images/PPHatton-Bold.otf) format("otf");
+  src: local("Hatton Bold"), url("assets/images/PPHatton-Bold.otf") format("otf");
 }
 
 @font-face {
   font-family: "Hatton Medium";
-  src: local("Hatton Medium"), url(assets/images/PPHatton-Medium.otf) format("otf");
+  src: local("Hatton Medium"), url("assets/images/PPHatton-Medium.otf") format("otf");
 }
 
 .hor {
