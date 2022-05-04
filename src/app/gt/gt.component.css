@@ -86,7 +86,7 @@
 
   @font-face {
     font-family: "Hatton Semibold";
-    src: local("Hatton Semibold"), url("assets/images/PPHatton-Semibold.otf") format("otf");
+    src:  url("assets/images/PPHatton-Semibold.otf") format("otf");
   }
   
   @font-face {
