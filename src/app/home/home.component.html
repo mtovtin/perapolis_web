@@ -1,0 +1,68 @@
+<html>
+
+<body [ngClass]="status ? 'blur-on' : 'blur-off'">
+  <div [ngClass]="status ? 'pd' : 'pd-off'">
+  <nav style="position:absolute; margin-top: -20px; background-color: rgba(0, 0, 0, 1);"
+    class="navbar  navbar-dark fixed-top">
+    <div>
+
+      <span style="position:absolute; right:40px; top:40px" (click)="toggleNavbar()">
+        <img id="menu_icon" src='/../assets/images/Menu Icon.png'>
+      </span>
+    </div>
+
+    <div class="collapse navbar-collapse" [ngClass]="{ 'show': navbarOpen }">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: #6667AB;"><img style="width: 30vw;" src='/../assets/images/Logow.png'></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about-component" style="color: #6667AB;">ABOUT</a>
+          <div class="hor"></div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/gt-component" style="color: #6667AB;">THE GOLDEN THREAD</a>
+          <div class="hor"></div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/services-component" style="color: #6667AB;">SERVICES</a>
+          <div class="hor"></div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/portfolio-component" style="color: #6667AB;">PORTFOLIO</a>
+          <div class="hor"></div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: #6667AB;">CONTACT</a>
+        </li>
+        <li class="nav-item other">
+          <a class="nav-link" href="#">FAQ</a>
+          <a class="nav-link" href="#">PRIVACY POLICY</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="or">
+    <div id="logo"><img style="width: 30em;" src='/../assets/images/Logow.png'></div>
+  </div>
+  <div id="contact">contact us</div>
+  <div id="socials">
+    <div>
+      <img src='/../assets/images/Feather.png'>
+    </div>
+    <div>
+      <img src='/../assets/images/Feather1.png'>
+    </div>
+    <div>
+      <img src='/../assets/images/Feather3.png'>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>
