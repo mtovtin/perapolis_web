@@ -215,6 +215,13 @@ pre{
 
   }
 
+  @media (max-width: 500px) {
+    html{
+    padding-right: 20px;
+    }
+
+  }
+
   @media (max-width: 860px) {
   #gt{
     padding-top: 70px;

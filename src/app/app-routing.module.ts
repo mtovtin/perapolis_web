@@ -19,7 +19,7 @@ import { Gt11Component } from './gt11/gt11.component';
 
 
 const routes: Routes = [
-  {path: '', component: HomeComponent},
+  {path: '', component: AboutComponent},
   { path: 'about-component', component: AboutComponent },
   { path: 'services-component', component: ServicesComponent },
   { path: 'gt-component', component: GtComponent },
