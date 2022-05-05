@@ -131,6 +131,7 @@ li a {
   position: fixed;
   left: 20px;
   bottom: 10%;
+  background-color: white !important;
 }
 
 #logo {

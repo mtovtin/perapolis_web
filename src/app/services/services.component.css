@@ -2,7 +2,9 @@ html{
     padding-bottom: 200px;
     background-color: #14393F;
 }
-
+*{
+  background-color: #14393F;;
+}
 nav {
 
   
@@ -210,6 +212,7 @@ pre{
     font-family: "Hatton Medium";
     color: white;
     text-align: center;
+    width: 100%;
 }
 
 .subtitleLight{
@@ -223,3 +226,24 @@ pre{
     margin-bottom: 40px;
 }
 
+@media (max-width: 860px) {
+  #logo img{
+  width: 300px;
+  }
+
+  html{
+    margin-bottom: 400px;
+    background-color: #14393F;
+  }
+
+  body{
+    margin-bottom: 400px;
+    background-color: #14393F;
+  }
+  .title{
+ text-align: center;
+padding: 50px;
+text-align:center;
+}
+
+}
