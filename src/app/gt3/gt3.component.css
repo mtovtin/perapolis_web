@@ -288,6 +288,14 @@ font-weight: lighter;
         }  
      } 
 
+     #inp{
+      font-size: 48px;
+      }
+      
+      #inp1{
+      font-size: 48px;
+      }
+
      @media (max-width: 860px) {
       #logo img{
       width: 300px;
@@ -305,8 +313,32 @@ font-weight: lighter;
         margin-bottom: 400px;
         background-color:#E0E7ED;
       }
+      #inp{
+        font-size: 28px;
+        }
+        
+        #inp1{
+        font-size: 28px;
+        width: 50%;
+        margin: auto;
+        }
     
       #title2{
     
         font-size: 43px;}
+
+        button{
+          font-size: 18px;
+          height: 70px;
+width: 300px !important;
+        }
+
+        #wrapper{
+          margin-left: 0%;
+      }
+      #st{
+        text-align: center;
+
+      }
+
     }
