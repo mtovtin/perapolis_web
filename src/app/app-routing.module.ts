@@ -16,6 +16,7 @@ import { Gt9Component } from './gt9/gt9.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { Gt10Component } from './gt10/gt10.component';
 import { Gt11Component } from './gt11/gt11.component';
+import {PosuereComponent} from './posuere/posuere.component';
 
 
 const routes: Routes = [
@@ -35,7 +36,7 @@ const routes: Routes = [
   {path: 'gt10-component', component: Gt10Component},
   {path: 'gt11-component', component: Gt11Component},
   {path: 'portfolio-component', component: PortfolioComponent},
-
+  {path: 'posuere-component', component: PosuereComponent},
 ];
 
 @NgModule({

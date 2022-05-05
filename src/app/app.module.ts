@@ -23,6 +23,7 @@ import { Gt9Component } from './gt9/gt9.component';
 import { AnswersService } from './answers.service';
 import { Gt10Component } from './gt10/gt10.component';
 import { Gt11Component } from './gt11/gt11.component';
+import { PosuereComponent } from './posuere/posuere.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,7 +43,8 @@ import { Gt11Component } from './gt11/gt11.component';
     Gt8Component,
     Gt9Component,
     Gt10Component,
-    Gt11Component
+    Gt11Component,
+    PosuereComponent
   ],
   imports: [
     BrowserModule,
