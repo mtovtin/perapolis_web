@@ -242,8 +242,9 @@ pre{
   }
   .title{
  text-align: center;
-padding: 50px;
-text-align:center;
+width: 90%;
+margin: auto;
+text-align: center;
 }
 
 }
