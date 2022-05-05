@@ -383,4 +383,21 @@ padding-bottom: 150px;
   }
   
 }
+*{
+  background-color: #88a8be !important;
+}
+@media (max-width: 860px) {
+  #logo img{
+  width: 300px;
+  }
 
+  html{
+    margin-bottom: 400px;
+    background-color: #88a8be;
+  }
+
+  body{
+    margin-bottom: 400px;
+    background-color: #88a8be;
+  }
+}
