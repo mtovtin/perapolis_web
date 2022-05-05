@@ -75,21 +75,21 @@ html {
   
  
   
+  @font-face {
+    font-family: "Hatton Semibold";
+    src: url("src/assets/images/PPHatton-Semibold.otf") format("opentype");
+  }
   
-       @font-face {
-        font-family: "Hatton Semibold";
-        src: local("Hatton Semibold"), url(/../assets/images/PPHatton-Semibold.otf) format("otf");
-      }
-      
-      @font-face {
-        font-family: "Hatton Ultralight";
-        src: local("Hatton Ultralight"), url(/../assets/images/PPHatton-Ultralight.otf) format("otf");
-      }
-      
-      @font-face {
-        font-family: "Hatton Medium";
-        src: local("Hatton Medium"), url(/../assets/images/PPHatton-Medium.otf) format("otf");
-      }
+  @font-face {
+    font-family: "Hatton Ultralight";
+    src:  url("src/assets/images/PPHatton-Ultralight.otf") format("opentype");
+  }
+  
+  @font-face {
+    font-family: "Hatton Medium";
+    src:  url("src/assets/images/PPHatton-Medium.otf") format("opentype");
+  }
+  
       .hor {
          width: 1px;
          border-left: 1px solid white;
