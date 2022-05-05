@@ -191,3 +191,21 @@ li a {
       }
 }
 
+@media (max-width: 860px) {
+  #logo img{
+  width: 300px;
+  }
+  #bg{
+    right: 15px !important;
+  }
+
+  html{
+    margin-bottom: 400px;
+    background-color: #88a8be;
+  }
+
+  body{
+    margin-bottom: 400px;
+    background-color: #88a8be;
+  }
+}

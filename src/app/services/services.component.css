@@ -230,7 +230,10 @@ pre{
   #logo img{
   width: 300px;
   }
-
+  #bg{
+    right: 15px !important;
+  }
+  
   html{
     margin-bottom: 400px;
     background-color: #14393F;

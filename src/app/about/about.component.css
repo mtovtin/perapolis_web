@@ -199,6 +199,9 @@ padding-bottom: 150px;
   #logo img{
   width: 300px;
   }
+  #bg{
+    right: 15px !important;
+  }
 
   html{
     margin-bottom: 400px;
