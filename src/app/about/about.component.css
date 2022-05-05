@@ -80,17 +80,17 @@ li a {
 
 @font-face {
   font-family: "Hatton Semibold";
-  src: url("/../assets/images/PPHatton-Semibold.otf") format("opentype");
+  src: url("assets/images/PPHatton-Semibold.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Hatton Ultralight";
-  src:  url("/../assets/images/PPHatton-Ultralight.otf") format("opentype");
+  src:  url("assets/images/PPHatton-Ultralight.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Hatton Medium";
-  src:  url("/../assets/images/PPHatton-Medium.otf") format("opentype");
+  src:  url("assets/images/PPHatton-Medium.otf") format("opentype");
 }
 
 
