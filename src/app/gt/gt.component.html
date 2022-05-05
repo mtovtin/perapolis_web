@@ -6,15 +6,15 @@
         <nav style="position:absolute; margin-top: -20px; background-color: rgba(0, 0, 0, 1);" class="navbar  navbar-dark">
           <div>
       
-            <span style="position:absolute; right:40px; top:40px" (click)="toggleNavbar()">
+            <span id="bg" style="position:absolute; right:40px; top:40px" (click)="toggleNavbar()">
               <img id="menu_icon" src='assets/images/Menu Icon.png'>
             </span>
           </div>
       
           <div class="collapse navbar-collapse" [ngClass]="{ 'show': navbarOpen }">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#" style="color: #6667AB;"><img style="width: 40vw;" src='assets/images/Logow.png'></a>
+              <li style="margin-top: 20px;" class="nav-item">
+                <a class="nav-link" href="#" style="color: #6667AB;"><img style="width: 45vw;" src='assets/images/Logow.png'></a>
               </li>
               <li style="margin-top: 100px;" class="nav-item">
                 <a class="nav-link" href="about-component" style="color: #6667AB;">ABOUT</a>
