@@ -95,9 +95,11 @@ nav {
 .hor {
   width: 1px;
   border-left: 1px solid white;
-  height: 60px;
+  height: 10vw;
   position: relative;
   margin: auto;
+  margin-bottom: 20px;
+  margin-top: 14px;
 }
 
 .other a {
@@ -138,7 +140,7 @@ nav {
 #menu_icon {
   text-orientation: mixed;
   color: rgba(0, 0, 0, 0.2);
-
+  width:40px;
   top: 20px;
   right: 3%;
 }
@@ -381,3 +383,4 @@ padding-bottom: 150px;
   }
   
 }
+
