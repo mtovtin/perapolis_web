@@ -273,11 +273,61 @@ font-weight: lighter;
 
  }
  
-
+ *{
+  background-color:#E0E7ED ;
+}
+#inp{
+  font-size: 48px;
+  }
+  
+  #inp1{
+  font-size: 48px;
+  }
  @media (max-width: 768px) {
   button{
     width: 404px !important;
   }
      } 
 
-     
+     @media (max-width: 860px) {
+      #logo img{
+      width: 300px;
+      }
+      #bg{
+        right: 15px !important;
+      }
+    
+      html{
+        margin-bottom: 400px;
+        background-color: #E0E7ED;
+      }
+    
+      body{
+        margin-bottom: 400px;
+        background-color:#E0E7ED;
+      }
+      #inp{
+        font-size: 38px;
+        }
+        
+        #inp1{
+        font-size: 38px;
+        }
+    
+      #title2{
+    
+        font-size: 43px;}
+
+        button{
+          font-size: 18px;
+          height: 70px;
+width: 400px !important;
+        }
+
+        #wrapper{
+          margin-left: 0%;
+      }
+      #st{
+        text-align: center;
+      }
+    }

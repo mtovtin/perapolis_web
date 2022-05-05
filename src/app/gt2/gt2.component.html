@@ -3,7 +3,7 @@
   <nav style="position:absolute; margin-top: -20px; background-color: rgba(0, 0, 0, 1);" class="navbar  navbar-dark">
     <div>
 
-      <span style="position:absolute; right:40px; top:40px" (click)="toggleNavbar()">
+      <span id="bg" style="position:absolute; right:40px; top:40px" (click)="toggleNavbar()">
         <img id="menu_icon" src='assets/images/Menu Icon.png'>
       </span>
     </div>
@@ -54,9 +54,10 @@
     <div id="logo"><img  src='assets/images/Logop.png'></div>
     <div id="subtitle">A formula for a brand's successful strategic path within the luxury multiverse.</div>
     <!-- <div id="menu_icon"><img src='/../assets/images/Menu Icon.png'></div> -->
-    <div id="wrapper">
-<div style="margin-top: 200px; color: black; font-size: 48px; font-family: 'Hatton Medium';">INPUT 2</div>
-<div style="margin-top: -20px;color: black; font-size: 48px; margin-bottom:30px; font-family: 'Public sans'; font-weight: lighter;">Main product category:</div>
+    <div id="st">
+    <div id="wrapper" >
+<div id="inp" style="margin-top: 200px; color: black;  font-family: 'Hatton Medium';">INPUT 2</div>
+<div id="inp1" style="margin-top: -20px;color: black; margin-bottom:30px; font-family: 'Public sans'; font-weight: lighter;">Main product category:</div>
 <div class = "btn-group-vertical">
   <div><button (click)="goToNext('Foods, Wine & Spirits')" type = "button" class = "btn btn-default">Foods, Wine & Spirits</button></div>  
 
@@ -68,7 +69,7 @@
                     <div> <button (click)="goToNext('Arts (Physical and Digital)')"  type = "button" class = "btn btn-default"> Arts (Physical and Digital)</button></div>
     <div> <button (click)="goToNext('Personal Toys (Cars, Yachts, Motorcycles)')"  type = "button" class = "btn btn-default"> Personal Toys (Cars, Yachts, Motorcycles)</button></div>
         <div> <button (click)="goToNext('Estates')" style="margin-bottom: 200px;" type = "button" class = "btn btn-default">Estates</button> </div>
-  
+      </div>
  </div>
 
 </div>

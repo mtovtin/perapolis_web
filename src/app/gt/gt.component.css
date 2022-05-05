@@ -71,7 +71,7 @@
   
   
   nav .show {
-    color: white;
+    color: rgb(191, 191, 191);
   
     padding-bottom: 20px;
   
@@ -79,7 +79,7 @@
   }
   
   li a {
-    color: white!important;
+    color: rgb(0, 0, 0)!important;
     font-size: 6vw;
     font-family: "Hatton Semibold";
   }

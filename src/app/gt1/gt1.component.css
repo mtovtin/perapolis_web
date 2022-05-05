@@ -248,7 +248,8 @@ padding-top: 140px;
   ::placeholder { 
     color:#6667AB;
     opacity: 1; 
-    font-size: 30px
+    font-size: 30px;
+
   }
 
   #line1{
@@ -257,5 +258,67 @@ padding-top: 140px;
     margin: auto;
     margin-bottom: 10px;
  }
+ *{
+  background-color:#E0E7ED ;
+}
+#inp{
+font-size: 48px;
+}
 
- 
+#inp1{
+font-size: 48px;
+}
+
+#ok{
+  font-size: 40px; 
+}
+
+#l{
+  margin-left: 10%;
+}
+ @media (max-width: 860px) {
+  #logo img{
+  width: 300px;
+  }
+  #bg{
+    right: 15px !important;
+  }
+
+  html{
+    margin-bottom: 400px;
+    background-color: #E0E7ED;
+  }
+
+  body{
+    margin-bottom: 400px;
+    background-color:#E0E7ED;
+  }
+  #inp{
+    font-size: 38px;
+    }
+    
+    #inp1{
+    font-size: 38px;
+    }
+
+  #title2{
+
+    font-size: 43px;}
+    #wrapper{
+      margin-left: 0%;
+  }
+  #st{
+    text-align: center;
+  }
+
+  #l{
+    margin:auto;
+  }
+
+  input{
+
+  width: 80%;
+
+
+}
+}

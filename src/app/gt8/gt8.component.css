@@ -273,11 +273,35 @@ html {
   
   }
 
-    
+  *{
+    background-color:#E0E7ED ;
+  }
+  
   @media (max-width: 768px) {
   button{
     width: 404px !important;
   }
      } 
 
-     
+     @media (max-width: 860px) {
+      #logo img{
+      width: 300px;
+      }
+      #bg{
+        right: 15px !important;
+      }
+    
+      html{
+        margin-bottom: 400px;
+        background-color: #E0E7ED;
+      }
+    
+      body{
+        margin-bottom: 400px;
+        background-color:#E0E7ED;
+      }
+    
+      #title2{
+    
+        font-size: 43px;}
+    }
