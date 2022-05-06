@@ -451,6 +451,7 @@ top: 130px;
 
     #s{
      margin-right: 0px; position:relative; top: 0px; display: block;
+     
     }
 #ss{
     margin-right: 0px; position:relative; top: -600px; display: block;
@@ -462,10 +463,16 @@ top: 130px;
 }
 
 #s img{
-    width: 90%;
+    width: 96%;
+    margin-left: -3% !important;
     }
     #ss img{
         width: 90%;
+        margin-left: 3% !important;
+        }
+
+        #posuere{
+            margin-bottom: -100px;
         }
         
 }
