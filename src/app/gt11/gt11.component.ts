@@ -26,6 +26,7 @@ str: any;
 str2: any;
 str3: any;
 str4: any;
+status: boolean = false;
 
   constructor(private answersService:AnswersService, private router: Router) { }
 
@@ -63,6 +64,8 @@ console.log(this.answersService.h);
 
   toggleNavbar() {
     this.navbarOpen = !this.navbarOpen;
-    
+    this.status = !this.status;  
   }
+
+
 }

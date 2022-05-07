@@ -1,4 +1,4 @@
-
+<!-- 
 <p>brand name: {{brandName}}</p>
 <p>category: {{category}}</p>
 <p>goods: {{goods}}</p>
@@ -16,3 +16,163 @@
 <p>{{str2}} - {{str4}}</p>
 <p>POD: {{h}}</p>
 
+
+
+ -->
+
+
+
+
+
+
+
+
+
+
+<html style="height: 100%;">
+<header>
+  <nav style="position:absolute; margin-top: -20px; background-color: rgba(0, 0, 0, 1);"
+    class="navbar  navbar-fixed-top navbar-dark">
+    <div>
+
+      <span id="bg" style="position:absolute; right:40px; top:40px" (click)="toggleNavbar()">
+        <img id="menu_icon" src='assets/images/Menu Icon.png'>
+      </span>
+    </div>
+
+    <div class="collapse navbar-collapse" [ngClass]="{ 'show': navbarOpen }">
+      <ul class="navbar-nav mr-auto">
+        <li style="margin-top: 20px;" class="nav-item">
+          <a class="nav-link" href="#" style="color: #6667AB;"><img style="width: 45vw;"
+              src='assets/images/Logob.png'></a>
+        </li>
+        <li style="margin-top: 100px;" class="nav-item">
+          <a class="nav-link" href="about-component" style="color: #6667AB;">ABOUT</a>
+          <div class="hor"></div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="gt-component" style="color: #6667AB;">THE GOLDEN THREAD</a>
+          <div class="hor"></div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="services-component" style="color: #6667AB;">SERVICES</a>
+          <div class="hor"></div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio-component" style="color: #6667AB;">PORTFOLIO</a>
+          <div class="hor"></div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: #6667AB;">CONTACT</a>
+        </li>
+        <li class="nav-item other">
+          <a class="nav-link" href="#">FAQ</a>
+          <a class="nav-link" href="#">PRIVACY POLICY</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+
+
+<body [ngClass]="status ? 'blur-on' : 'blur-off'">
+  <div [ngClass]="status ? 'pd' : 'pd-off'">
+    <div style="background-color: #6667AB;">
+
+      <div id="logo"><img src='assets/images/Logob.png'></div>
+
+      <!-- <div id="menu_icon"><img src='/../assets/images/Menu Icon.png'></div> -->
+
+
+      <div id="contact">contact us</div>
+      <div id="socials">
+        <div>
+          <img src='assets/images/Feather.png'>
+        </div>
+        <div>
+          <img src='assets/images/Feather1.png'>
+        </div>
+        <div>
+          <img src='assets/images/Feather3.png'>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container" style="padding-left: 7%; padding-right:7%;text-align: center; padding-top: 200px;">
+        <div id="gt">Find your Golden Thread!</div>
+        <div style="text-align: left;" class="col-12 subtitleLight">
+            The Golden Thread is a success formula for your luxury brand. Below you will find the results of our algorithm. Follow the thread to understand your strategic path in the luxury multiverse.        </div>
+     
+      <div class="row">
+        <div class="subtitle col-md-4 col-lg-4 col-xs-12" style=" display: inline-block; text-align: center;">
+            The Target
+
+            Profile
+        </div>
+        <div style="text-align: left;" class="txt col-md-8 col-lg-8 col-xs-12">
+           {{str}} - {{str3}}
+          {{str2}} - {{str4}}
+        </div>
+      </div>
+     
+      <div class="row" style="margin-bottom:40px; text-align: center;">
+        <div class="subtitle col-md-4 col-lg-4 col-xs-12">
+       POD
+        </div>
+        <div style="text-align: left;" class="txt col-md-8 col-lg-8 col-xs-12">
+            {{h}}
+        </div>
+      </div>
+
+
+      <div class="row" style="margin-bottom:40px;">
+        <div class="subtitle col-md-4 col-lg-4 col-xs-12">
+            Market 
+
+            Segment
+        </div>
+        <div style="text-align: left;" class="txt col-md-8 col-lg-8 col-xs-12">
+        {{c}}
+        </div>
+      </div>
+
+      <div class="row" style="margin-bottom:40px;">
+        <div class="subtitle col-md-4 col-lg-4 col-xs-12">
+  
+        </div>
+        <div style="text-align: center; font-size: 20px; font-family: 'Hatton Medium';" class="txt col-md-8 col-lg-8 col-xs-12">
+            <img style="margin-bottom: 10px;" src='assets/images/down.png'>  Download a report
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 col-lg-4 col-xs-12">
+        </div>
+        <div class="col-md-8 col-lg-8 col-xs-12">
+
+
+
+        </div>
+      </div>
+      
+     
+
+
+
+
+    </div>
+
+    <div style="margin-top: 100px; padding-bottom: 60px; font-style: 10px; font-family: 'Inter'; color: #14393F; text-align: center;">Please keep in mind that this is a demo version of the website that excludes pricing specifications.</div>
+
+  </div>
+  <div style="font-size: 12px; color: white; font-family: 'Public Sans'; text-align: center; padding-bottom: 40px;">©2022 PERAPOLIS</div>
+
+</body>
+
+</html>

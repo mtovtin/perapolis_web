@@ -516,26 +516,6 @@ margin-left: 10px;
   #logo img{
   width: 300px;
   }
-  #bg{
-    right: 15px !important;
-  }
-
-  html{
-    margin-bottom: 400px;
-    background-color: #E0E7ED;
-  }
-  #inp{
-    font-size: 48px;
-    }
-    
-    #inp1{
-    font-size: 48px;
-    }
-
-  body{
-    margin-bottom: 400px;
-    background-color:#E0E7ED;
-  }
   #inp{
     font-size: 28px;
     }
@@ -545,6 +525,21 @@ margin-left: 10px;
     width: 50%;
     margin: auto;
     }
+  #bg{
+    right: 15px !important;
+  }
+
+  html{
+    margin-bottom: 400px;
+    background-color: #E0E7ED;
+  }
+
+
+  body{
+    margin-bottom: 400px;
+    background-color:#E0E7ED;
+  }
+ 
 
   #title2{
 
@@ -564,3 +559,25 @@ width: 300px !important;
 
   }
 }
+
+#inp{
+  font-size: 48px;
+  }
+  
+  #inp1{
+  font-size: 48px;
+  }
+
+
+  @media (max-width: 860px) {
+
+    #inp{
+      font-size: 28px;
+      }
+      
+      #inp1{
+      font-size: 28px;
+      width: 50%;
+      margin: auto;
+      }
+    }
