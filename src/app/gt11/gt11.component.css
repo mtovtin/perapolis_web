@@ -495,3 +495,329 @@ padding-top: 50px;
         }
         
 }
+
+#tp{text-align: left;}
+@media (max-width: 1000px) {
+    #demo{
+        width: 80%;
+        margin: auto;
+    }
+    #wow img{
+        width: 400px;
+    }
+    #wow{
+        margin-top: 100px;
+    }
+    #tp{text-align: center;}
+}
+#wow{
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    #wow{
+        margin-top: 100px;
+    }
+    }
+
+
+
+    @media (min-width: 1000px) {    
+        .col{
+  padding-top: -600px;
+  display: flex;
+  flex-direction:column;
+  -ms-flex-align: center;
+        }
+    }
+
+
+
+    #tr{
+        font-size: 16px;
+    }
+    
+
+
+
+    .st {
+        font-size: 40px;
+        font-family: "Hatton Medium" !important;
+        color: #6667AB;
+      }
+    
+      .txt1 {
+    
+        font-size: 16px;
+        font-family: "Public Sans", sans-serif;
+        color: black;
+      }
+
+    
+
+    
+
+
+      #one{
+        position: relative; 
+        top:280px; 
+        display: flex;
+         flex-direction: row;
+      }
+
+      #two{
+        margin-left: -115px;width: 500px;position: relative; padding-left: 170px; top:-530px; display: flex; flex-direction: column; justify-content: center; text-align: center;
+      }
+
+      #three{
+        margin-left: 360px;width: 600px;position: relative; padding-left: 170px; top:-650px; display: flex; flex-direction: column; justify-content: center; text-align: center;
+      }
+
+
+
+      @media (max-width: 1200px) {
+
+        .st {
+            font-size: 30px;
+   
+          }
+        
+          .txt1 {
+        
+            font-size: 12px;
+
+
+          }
+    
+          #wow img{
+              width: 80%;
+          }
+          
+
+
+
+
+          #one{
+            position: relative; 
+            top:220px; 
+            display: flex;
+             flex-direction: row;
+          }
+    
+          #two{
+            margin-left: -115px;width: 500px;position: relative; padding-left: 170px; top:-430px; display: flex; flex-direction: column; justify-content: center; text-align: center;
+          }
+    
+          #three{
+            padding-bottom: 200px;
+            margin-left: 200px;width: 600px;position: relative; padding-left: 170px; top:-450px; display: flex; flex-direction: column; justify-content: center; text-align: center;
+          }
+      }
+
+
+
+      @media (max-width: 1115px) {
+
+     
+        .st {
+            font-size: 25px;
+   
+          }
+        
+          .txt1 {
+        
+            font-size: 12px;
+
+
+          }
+    
+          #wow img{
+              width: 70%;
+          }
+          
+
+
+          #one{
+            position: relative; 
+            top:210px; 
+            display: flex;
+             flex-direction: row;
+          }
+    
+          #two{
+            margin-left: -115px;width: 500px;position: relative; padding-left: 170px; top:-380px; display: flex; flex-direction: column; justify-content: center; text-align: center;
+          }
+    
+          #three{
+              padding-bottom: 200px;
+            margin-left: 200px;width: 600px;position: relative; padding-left: 170px; top:-450px; display: flex; flex-direction: column; justify-content: center; text-align: center;
+          }
+      }
+
+
+
+      
+      @media (max-width: 994px) {
+
+     
+        .st {
+            font-size: 20px;
+   
+          }
+        
+          .txt1 {
+        width: 300px;
+            font-size: 10px;
+
+
+          }
+    
+          #wow img{
+              width: 70%;
+          }
+          
+
+
+          #one{
+            position: relative; 
+            top:210px; 
+            display: flex;
+             flex-direction: row;
+          }
+    
+          #two{
+            margin-left: -145px;width: 500px;position: relative; padding-left: 130px; top:-260px; display: flex; flex-direction: column; justify-content: center; text-align: center;
+          }
+    
+          #three{
+
+            padding-bottom: 300px;
+            margin-left: 140px;width: 600px;position: relative; padding-left: 150px; top:-320px; display: flex; flex-direction: column; justify-content: center; text-align: center;
+          }
+      }
+
+
+
+
+
+      .lh img{
+        height: 30px;
+    }
+       
+      @media (max-width: 774px) {
+
+     
+        .st {
+            font-size: 20px;
+   
+          }
+        
+          .txt1 {
+        width: 100%;
+            font-size: 0px;
+
+
+          }
+    
+          #wow img{
+              width: 70%;
+          }
+          
+
+
+          #one{
+              margin-top: 70px;
+              left: 30px;
+            position: relative; 
+            top:180px; 
+            display: flex;
+             flex-direction: row;
+          }
+    
+          #two{
+            margin-left: -185px;width: 500px;position: relative; padding-left: 130px; top:-160px; display: flex; flex-direction: column; justify-content: center; text-align: center;
+          }
+    
+          #three{margin-bottom: 60px;
+            margin-left: -100px;width: 600px;position: relative; padding-left: 150px; top:-180px; display: flex; flex-direction: column; justify-content: center; text-align: center;
+          }
+
+#lw{
+    height: 0px;
+    width: 0px;
+}
+
+          .lh img{
+            height: 0px;
+
+        }
+      }
+
+    
+
+
+
+
+
+
+
+      @media (max-width: 564px) {
+
+     
+        .st {
+            font-size: 15px;
+   width: -300px
+          }
+        
+          .txt1 {
+        width: 0%;
+            font-size: 0px;
+
+
+          }
+    
+          #wow img{
+              width: 70%;
+          }
+          
+
+
+          #one{
+              margin-top: 70px;
+              left: 30px;
+            position: relative; 
+            top:180px; 
+            display: flex;
+             flex-direction: row;
+          }
+
+
+     
+          #two{
+            margin-left: -80px;width: 300px;position: relative; padding-left: 130px; top:-160px; display: flex; flex-direction: column; justify-content: center; text-align: center;
+          }
+    
+          #three{margin-bottom: 60px;
+            margin-left: 40px;width: 300px;position: relative; padding-left: 150px; top:-180px; display: flex; flex-direction: column; justify-content: center; text-align: center;
+          }
+
+#lw{
+    height: 0px;
+    width: 0px;
+}
+
+          .lh img{
+            height: 0px;
+
+        }
+      }
+
+
+
+      @media (min-width: 768px) {
+
+#tr div{
+    font-size: 0px;
+
+}
+      }
