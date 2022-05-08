@@ -375,7 +375,10 @@ TargetProfile = {
   }
 
   vidEnded() {
-    console.log("video ended");
+    this.answersService.c = this.c;
+    this.answersService.g = this.g;
+    this.answersService.h = this.h;
+
     this.router.navigateByUrl('gt11-component')
 }
   
