@@ -125,7 +125,7 @@ TargetProfile = {
         this.d = 8;
         break;
         default:
-          this.h = "Something went wrong. Try again";
+          this.d = "Something went wrong. Try again";
           break;
     }
     this.POD(this.d);
@@ -152,7 +152,7 @@ TargetProfile = {
         this.c = this.MarketSegment.SIX;
         break;
         default:
-          this.h = "Something went wrong. Try again";
+          this.c = "Something went wrong. Try again";
           break;
     }
     this.marketExclusivity(this.c);
@@ -374,4 +374,9 @@ TargetProfile = {
     this.router.navigateByUrl('gt11-component')
   }
 
+  vidEnded() {
+    console.log("video ended");
+    this.router.navigateByUrl('gt11-component')
+}
+  
 }
