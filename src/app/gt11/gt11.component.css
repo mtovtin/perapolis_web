@@ -842,3 +842,18 @@ padding-top: 50px;
           color: black;
           font-family: "Public Sans", sans-serif;
       }
+
+
+
+      .n{
+          text-align: left;
+      }
+
+      @media (max-width: 564px) {
+
+        .n{
+            text-align: center;
+            margin-left: 10px;
+            margin-right: 10px
+        }
+      }
