@@ -216,7 +216,7 @@ pre{
 }
 
 .subtitleLight{
-    font-size: 16px;
+    font-size: 20px;
     color: white;
     font-family: 'Public Sans', sans-serif;
     text-align: center;
@@ -233,7 +233,7 @@ pre{
   #bg{
     right: 15px !important;
   }
-  
+
   html{
     margin-bottom: 400px;
     background-color: #14393F;

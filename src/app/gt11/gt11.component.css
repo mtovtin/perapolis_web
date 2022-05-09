@@ -170,10 +170,11 @@ html {
   
   .txt {
 
-    margin-top: 5px;
-    font-size: 16px;
+ 
+    font-size: 30px;
     font-family: "Public Sans", sans-serif;
-    color: black;
+    color: #6667AB;
+
   }
   #logo img{
     width: 30em;
@@ -833,4 +834,11 @@ padding-top: 50px;
         margin-left: -20px;
        
 }
+      }
+
+
+      .desc{
+          font-size: 22px;
+          color: black;
+          font-family: "Public Sans", sans-serif;
       }

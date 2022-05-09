@@ -20,6 +20,8 @@ export class AnswersService {
   h: any;
   d: any;
   aw: any;
+  a: any;
+  r: any;
 
 }
 
