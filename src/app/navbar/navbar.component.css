@@ -1,52 +1,12 @@
-nav .show {
-  margin-top: -50px;
-
-  background-color: rgba(0, 0, 0, 0.7);
-  text-align: center;
-}
-body,
-html {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
+#pic1{
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
 }
 
-* {
-  box-sizing: inherit;
+#pic1 :hover{
+  transform: scale(1.5);
 }
-li a {
-  color: #6667ab;
-  font-size: 58px;
-  font-family: "Hatton Bold";
-}
-li {
-}
-
-
-
-.hor {
-  width: 1px;
-  border-left: 1px solid white;
-  height: 60px;
-  position: relative;
-  margin: auto;
-}
-
-.other a {
-  font-size: 24px;
-  font-family: "Public Sans", sans-serif;
-}
-
-@media (max-width: 768px) {
-  .col-xs-12 {
-    text-align: center;
-  }
-
-  li a {
-    font-size: 50px;
-  }
-}
-
-

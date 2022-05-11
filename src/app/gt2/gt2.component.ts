@@ -1,10 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router'; 
 import { AnswersService } from '../answers.service';
+import { fadeInAnimation } from '../_animations/index';
 @Component({
   selector: 'gt2-component',
   templateUrl: './gt2.component.html',
-  styleUrls: ['./gt2.component.css']
+  animations: [fadeInAnimation],
+  styleUrls: ['./gt2.component.css'],
+  host: { '[@fadeInAnimation]': '' }
 })
 export class Gt2Component implements OnInit {
   category: string | undefined

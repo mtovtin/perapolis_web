@@ -1,2 +1,3 @@
-
-<router-outlet></router-outlet>
+<span [@routeAnimation]="o.activatedRouteData['animation']">
+    <router-outlet #o="outlet"></router-outlet>
+</span>

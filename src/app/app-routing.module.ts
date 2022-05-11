@@ -17,26 +17,28 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { Gt10Component } from './gt10/gt10.component';
 import { Gt11Component } from './gt11/gt11.component';
 import {PosuereComponent} from './posuere/posuere.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 const routes: Routes = [
-  {path: '', component: AboutComponent},
+  {path: '', component: HomeComponent},
   { path: 'about-component', component: AboutComponent },
   { path: 'services-component', component: ServicesComponent },
   { path: 'gt-component', component: GtComponent },
-  { path: 'gt1-component', component: Gt1Component },
-  {path: 'gt2-component', component: Gt2Component},
-  {path: 'gt3-component', component: Gt3Component},
-  {path: 'gt4-component', component: Gt4Component},
-  {path: 'gt5-component', component: Gt5Component},
-  {path: 'gt6-component', component: Gt6Component},
-  {path: 'gt7-component', component: Gt7Component},
-  {path: 'gt8-component', component: Gt8Component},
-  {path: 'gt9-component', component: Gt9Component},
-  {path: 'gt10-component', component: Gt10Component},
-  {path: 'gt11-component', component: Gt11Component},
+  { path: 'gt1-component', component: Gt1Component,  data: { animation: "AnimalsPage" }  },
+  {path: 'gt2-component', component: Gt2Component, data: { animation: "FruitsPage" }},
+  {path: 'gt3-component', component: Gt3Component,  data: { animation: "a" }},
+  {path: 'gt4-component', component: Gt4Component,  data: { animation: "b" }},
+  {path: 'gt5-component', component: Gt5Component,  data: { animation: "c" }},
+  {path: 'gt6-component', component: Gt6Component,  data: { animation: "d" }},
+  {path: 'gt7-component', component: Gt7Component,  data: { animation: "e" }},
+  {path: 'gt8-component', component: Gt8Component,  data: { animation: "f" }},
+  {path: 'gt9-component', component: Gt9Component,  data: { animation: "g" }},
+  {path: 'gt10-component', component: Gt10Component,  data: { animation: "h" }},
+  {path: 'gt11-component', component: Gt11Component,  data: { animation: "i" }},
   {path: 'portfolio-component', component: PortfolioComponent},
   {path: 'posuere-component', component: PosuereComponent},
+  {path: 'navbar', component: NavbarComponent},
 ];
 
 @NgModule({

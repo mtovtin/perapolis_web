@@ -24,6 +24,7 @@ import { AnswersService } from './answers.service';
 import { Gt10Component } from './gt10/gt10.component';
 import { Gt11Component } from './gt11/gt11.component';
 import { PosuereComponent } from './posuere/posuere.component';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -47,10 +48,12 @@ import { PosuereComponent } from './posuere/posuere.component';
     PosuereComponent
   ],
   imports: [
+
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatExpansionModule
+    MatExpansionModule,
+    FormsModule
   ],
   providers: [AnswersService],
   bootstrap: [AppComponent]

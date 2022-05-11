@@ -291,7 +291,7 @@ font-weight: lighter;
       #inp1{
       font-size: 48px;
       }
-      
+
      @media (max-width: 860px) {
       #logo img{
       width: 300px;
@@ -337,4 +337,12 @@ width: 300px !important;
         text-align: center;
 
       }
+    }
+
+    :host  {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #60d7a9;
     }

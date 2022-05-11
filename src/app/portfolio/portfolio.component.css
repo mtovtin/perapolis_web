@@ -404,3 +404,43 @@ padding-bottom: 150px;
     background-color: #88a8be;
   }
 }
+
+.pic1{
+
+  transition: all .2s ease-in-out;
+
+}
+
+.pic1 :hover{
+  transform: scale(1.2);
+}
+
+.pic2{
+
+  transition: all .2s ease-in-out;
+
+}
+
+.pic2 :hover{
+  transform: scale(1.2);
+}
+
+.pic3{
+
+  transition: all .2s ease-in-out;
+
+}
+
+.pic3 :hover{
+  transform: scale(1.2);
+}
+
+.pic4{
+
+  transition: all .2s ease-in-out;
+
+}
+
+.pic4 :hover{
+  transform: scale(1.2);
+}

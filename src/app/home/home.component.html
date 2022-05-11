@@ -1,9 +1,6 @@
-<html>
-
-<body [ngClass]="status ? 'blur-on' : 'blur-off'">
-  <div [ngClass]="status ? 'pd' : 'pd-off'">
-  <nav style="position:absolute; margin-top: -20px; background-color: rgba(0, 0, 0, 1);"
-    class="navbar  navbar-dark fixed-top">
+<html style="height: 100%;">
+<header>
+  <nav style="position:absolute; margin-top: -20px; background-color: rgba(0, 0, 0, 1);" class="navbar  navbar-fixed-top navbar-dark">
     <div>
 
       <span id="bg" style="position:absolute; right:40px; top:40px" (click)="toggleNavbar()">
@@ -20,6 +17,7 @@
           <a class="nav-link" href="about-component" style="color: #6667AB;">ABOUT</a>
           <div class="hor"></div>
         </li>
+
         <li class="nav-item">
           <a class="nav-link" href="gt-component" style="color: #6667AB;">THE GOLDEN THREAD</a>
           <div class="hor"></div>
@@ -45,22 +43,35 @@
       </ul>
     </div>
   </nav>
+</header>
 
-  <div class="or">
-    <div id="logo"><img style="width: 30em;" src='assets/images/Logow.png'></div>
+
+
+<body style="position: relative;" [ngClass]="status ? 'blur-on' : 'blur-off'" >
+  <div [ngClass]="status ? 'pd' : 'pd-off'">
+  <div style="background-color: #6667AB;">
+
+    <div id="logo"><img src='assets/images/Logow.png'></div>
+
+    <!-- <div id="menu_icon"><img src='/../assets/images/Menu Icon.png'></div> -->
+
+    <div id="contact">contact us</div>
+    <div id="socials">
+      <div>
+        <img src='assets/images/Feather.png'>
+      </div>
+      <div>
+        <img src='assets/images/Feather1.png'>
+      </div>
+      <div>
+        <img src='assets/images/Feather3.png'>
+      </div>
+    </div>
+
   </div>
-  <div id="contact">contact us</div>
-  <div id="socials">
-    <div>
-      <img src='assets/images/Feather.png'>
-    </div>
-    <div>
-      <img src='assets/images/Feather1.png'>
-    </div>
-    <div>
-      <img src='assets/images/Feather3.png'>
-    </div>
-  </div>
+
+  
+
 </div>
 <div style="font-size: 12px; color: white; font-family: 'Public Sans'; text-align: center; padding-bottom: 40px;">©2022 PERAPOLIS</div>
 </body>
