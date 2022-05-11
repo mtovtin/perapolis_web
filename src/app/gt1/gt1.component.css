@@ -342,9 +342,10 @@ font-size: 48px;
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 568px) {
 #ok1{
-  width:50px
+  width:40px;
+  margin-left: -10px;
 }
 
 }
