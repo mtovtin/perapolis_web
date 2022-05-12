@@ -341,3 +341,33 @@ html {
         height: 100%;
         background: #60d7a9;
       }
+
+
+      #contact {
+        writing-mode: vertical-rl;
+        line-height: 1.2em;
+        text-orientation: mixed;
+        color: white;
+        position: fixed;
+        right: 20px;
+        bottom: 10%;
+        font-family: "Caudex", serif;
+        font-size: 22px;
+      }
+      
+      #socials {
+        line-height: 1em;
+        width: 5px;
+        text-orientation: mixed;
+        color: white;
+        position: fixed;
+        left: 20px;
+        bottom: 10%;
+        background-color: white !important;
+      }
+      
+      #socials img {
+        width: 22px;
+        margin-bottom: 10px;
+      }
+      
