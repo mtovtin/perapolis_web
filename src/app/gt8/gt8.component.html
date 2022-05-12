@@ -4,15 +4,13 @@
     <div>
 
       <span id="bg" style="position:absolute; right:40px; top:40px" (click)="toggleNavbar()">
-        <img id="menu_icon" src='assets/images/Menu Icon.png'>
+        <img id="menu_icon" src='assets/images/Menu Icon1.png'>
       </span>
     </div>
 
     <div class="collapse navbar-collapse" [ngClass]="{ 'show': navbarOpen }">
       <ul class="navbar-nav mr-auto">
-        <li style="margin-top: 20px;" class="nav-item">
-          <a class="nav-link" href="#" style="color: #6667AB;"><img style="width: 45vw;" src='assets/images/Logow.png'></a>
-        </li>
+
         <li style="margin-top: 100px;" class="nav-item">
           <a class="nav-link" href="about-component" style="color: #6667AB;">ABOUT</a>
           <div class="hor"></div>
@@ -58,9 +56,9 @@
     <div id="wrapper">
       <div id="inp" style="margin-top: 200px; margin-bottom: 20px; color: black;  font-family: 'Hatton Medium';">INPUT 8</div>
       <div id="inp1"
-        style="margin-top: -20px;color: black;   font-family: 'Public sans'; font-weight: lighter;">
+        style="margin-top: -20px;color: black; font-family: 'Public sans'; font-weight: lighter;">
         What is your company's unique purchase proposition?</div>
-        <div id="inp2" style="margin-top:30px;margin-bottom:30px;">The one thing that makes your business better than the competition.</div>
+        <div id="inp2" style="margin-top:10px;margin-bottom:30px;  font-weight: 200;  font-size: 22px;">The one thing that makes your business better than the competition.</div>
       <div class="btn-group-vertical">
         <div><button  (click)="goToNext('Product')" type="button" class="btn btn-default">Product</button></div>
         <div> <button (click)="goToNext('Service')" type="button" class="btn btn-default">Service</button></div>

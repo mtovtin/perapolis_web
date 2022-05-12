@@ -479,3 +479,14 @@ padding-bottom: 150px;
   width: 22px;
   margin-bottom: 10px;
 }
+
+
+.subtitle{
+  margin-top: 0px;
+}
+
+li a {
+  color: rgb(102, 103, 171)!important;
+  font-size: 6vw;
+  font-family: "Hatton Semibold";
+}

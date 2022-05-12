@@ -229,7 +229,7 @@ html {
   #subtitle{
       color: #14393F;
       font-size: 30px;
-      font-family:"Hatton Ultralight";
+      font-family:"Hatton Medium";
       line-height: 1.2em;
       width: 45%;
       margin-left: 3%;
@@ -273,7 +273,7 @@ html {
   border-radius: 5px;
   opacity: 0.5;
   text-align: left;
-  font-size: 28px;
+  font-size: 26px;
   font-family: 'Public Sans', sans-serif;
   font-weight: lighter;
   
@@ -289,7 +289,10 @@ html {
     #inp1{
     font-size: 48px;
     }
-  
+    @media (min-width: 900px) {
+  #ka{
+    width: 80%;
+  }}
   @media (max-width: 768px) {
   button{
     width: 404px !important;
@@ -335,7 +338,7 @@ html {
         font-size: 43px;}
     
         button{
-          font-size: 18px;
+          font-size: 16px;
           height: 70px;
     width: 300px !important;
         }
@@ -385,3 +388,10 @@ html {
       margin-bottom: 10px;
     }
     
+
+
+    li a {
+      color: rgb(102, 103, 171)!important;
+      font-size: 6vw;
+      font-family: "Hatton Semibold";
+    }

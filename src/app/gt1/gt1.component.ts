@@ -45,7 +45,7 @@ st: string=""
   
       app.disabled = true;
       app1.disabled = true;
-    this.st = "Enter your brand name please"
+    this.st = "Please enter your brand name"
     } else {
       this.st="";
       app.disabled = false;

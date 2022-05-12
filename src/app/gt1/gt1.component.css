@@ -390,3 +390,13 @@ font-size: 48px;
     margin-bottom: 10px;
   }
   
+
+  #subtitle{
+    font-family:"Hatton Medium";
+  }
+
+  li a {
+    color: rgb(102, 103, 171)!important;
+    font-size: 6vw;
+    font-family: "Hatton Semibold";
+  }

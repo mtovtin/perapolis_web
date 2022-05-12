@@ -4,15 +4,13 @@
     <div>
 
       <span id="bg" style="position:absolute; right:40px; top:40px" (click)="toggleNavbar()">
-        <img id="menu_icon" src='assets/images/Menu Icon.png'>
+        <img id="menu_icon" src='assets/images/Menu Icon1.png'>
       </span>
     </div>
 
     <div class="collapse navbar-collapse" [ngClass]="{ 'show': navbarOpen }">
       <ul class="navbar-nav mr-auto">
-        <li style="margin-top: 20px;" class="nav-item">
-          <a class="nav-link" href="#" style="color: #6667AB;"><img style="width: 45vw;" src='assets/images/Logow.png'></a>
-        </li>
+
         <li style="margin-top: 100px;" class="nav-item">
           <a class="nav-link" href="about-component" style="color: #6667AB;">ABOUT</a>
           <div class="hor"></div>
@@ -58,15 +56,17 @@
     <div id="wrapper">
       <div id="inp" style="margin-top: 200px; margin-bottom: 20px; color: black;  font-family: 'Hatton Medium';">INPUT 9</div>
       <div id="inp1"
-        style="margin-top: -20px;color: black;  font-family: 'Public sans'; font-weight: lighter;">
+        style="margin-top: -20px;color: black;  font-family: 'Public sans'; font-weight: lighter; ">
         What is your client's reason to purchase?</div>
-        <div class="inp2" style="margin-top:30px;">Prestige - a need for an upwards hierarchic feeling, acknowledgement;</div>
-        <div  class="inp2" >Return on the investment - seeking the best benefit to price ratio, finding a qualitative product with a good price;</div>
-        <div  class="inp2" >For a greater cause - affiliation for a deeper purpose, a community united mission;</div>
-        <div  class="inp2" >Exclusive ownership - craving pleasure and deep enjoyment from life;</div>
-        <div  class="inp2" >Product iconicity - a need for celebrating one's accomplishments through product symbols widely recognizable to the public;</div>
-        <div  class="inp2"  style="margin-bottom:30px;">Niche knowledge - a need for cryptic messages, profound meanings, comprehension of concepts.</div>
-      <div class="btn-group-vertical">
+        <div id="ka" style="font-weight: 200;  font-size: 22px; ">
+        <div class="inp2" style="margin-top:-5px;"><b>Prestige</b> - a need for an upwards hierarchic feeling, acknowledgement;</div>
+        <div  class="inp2" ><b>Return on the investment</b> - seeking the best benefit to price ratio, finding a qualitative product with a good price;</div>
+        <div  class="inp2" ><b>For a greater cause</b> - affiliation for a deeper purpose, a community united mission;</div>
+        <div  class="inp2" ><b>Exclusive ownership</b> - craving pleasure and deep enjoyment from life;</div>
+        <div  class="inp2" ><b>Product iconicity</b> - a need for celebrating one's accomplishments through product symbols widely recognizable to the public;</div>
+        <div  class="inp2"  style="margin-bottom:30px;"><b>Niche knowledge</b> - a need for cryptic messages, profound meanings, comprehension of concepts.</div>
+      </div>
+        <div class="btn-group-vertical">
         <div><button (click)="goToNext('Prestige')" type="button" class="btn btn-default">Prestige</button></div>
         <div> <button (click)="goToNext('Return on Investment')" type="button" class="btn btn-default">Return on investment</button></div>
         <div><button (click)="goToNext('For a greater cause')" type="button" class="btn btn-default">For a greater cause</button></div>

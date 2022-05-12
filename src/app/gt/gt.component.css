@@ -79,7 +79,7 @@
   }
   
   li a {
-    color: rgb(0, 0, 0)!important;
+    color: rgb(102, 103, 171)!important;
     font-size: 6vw;
     font-family: "Hatton Semibold";
   }
@@ -388,4 +388,9 @@ margin-bottom: 40px;
 #socials img {
   width: 22px;
   margin-bottom: 10px;
+}
+
+
+#subtitle{
+  font-family:"Hatton Medium";
 }

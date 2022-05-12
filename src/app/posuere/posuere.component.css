@@ -162,7 +162,7 @@ html {
   }
   
   .subtitle {
-    font-size: 40px;
+    font-size: 45px;
     font-family: "Hatton Medium" !important;
     color: #6667AB;
   }
@@ -321,7 +321,7 @@ text-align: center;
 
   .rt1{
     text-align: center;
-    font-size: 27px;
+    font-size: 24px;
     font-family: "Public Sans", sans-serif;
     color:#6667AB;
     line-height: 1.2em;
@@ -369,7 +369,7 @@ padding-left: 0 !important;
     right: 30px;
 top: 130px;
 
-    font-size: 25px;
+    font-size: 20px;
 }
 
 @media (max-width: 1000px) {
@@ -409,7 +409,13 @@ top: 130px;
 .l{
     margin-bottom: 50px;
 }
-@media (max-width: 900px) {
+
+@media (min-width: 1200px) {
+.f{
+  padding-left: 20px;
+}
+}
+@media (max-width: 1200px) {
 .rem{
     width: 100px;
 }
@@ -511,3 +517,44 @@ top: 130px;
   width: 22px;
   margin-bottom: 10px;
 }
+
+
+#s{
+
+
+    transition: all .2s ease-in-out;
+  
+
+  
+
+}
+
+#s :hover{
+
+    transform: scale(1.2);
+  
+}
+
+
+
+#ss{
+
+
+  transition: all .2s ease-in-out;
+
+
+
+
+}
+
+#ss :hover{
+
+  transform: scale(1.2);
+
+}
+
+ li a {
+    color: rgb(102, 103, 171)!important;
+    font-size: 6vw;
+    font-family: "Hatton Semibold";
+  }

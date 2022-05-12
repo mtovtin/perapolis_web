@@ -168,7 +168,7 @@ body{
 
 
   .subtitle{
-    font-size: 40px;
+    font-size: 45px;
     font-family: "Hatton Medium";
     color: white;
 }
@@ -180,7 +180,7 @@ color: white;
 }
 
 .txt{
-    font-size: 16px;
+    font-size: 24px;
     font-family: 'Public Sans', sans-serif;
 color: white;
 }
@@ -221,7 +221,7 @@ pre{
 }
 
 .subtitleLight{
-    font-size: 20px;
+    font-size: 26px;
     color: white;
     font-family: 'Public Sans', sans-serif;
     text-align: center;
@@ -285,4 +285,9 @@ font-size: 40px;
 #socials img {
   width: 22px;
   margin-bottom: 10px;
+}
+li a {
+  color: rgb(102, 103, 171)!important;
+  font-size: 6vw;
+  font-family: "Hatton Semibold";
 }

@@ -40,3 +40,9 @@ video {
     height: 100%;
     background: #60d7a9;
   }
+
+  li a {
+    color: rgb(102, 103, 171)!important;
+    font-size: 6vw;
+    font-family: "Hatton Semibold";
+  }

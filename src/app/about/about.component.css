@@ -171,7 +171,7 @@ height: auto;
 }
 
 .subtitle {
-  font-size: 40px;
+  font-size: 45px;
   font-family: "Hatton Medium" !important;
   color: white;
 }
@@ -182,12 +182,12 @@ height: auto;
 }
 
 .txt {
-  font-size: 26px;
+  font-size: 24px;
   font-family: "Public Sans", sans-serif;
   color: white;
 }
 #logo img{
-  width: 30em;
+  width: 22em;
 }
 
 @media (max-width: 768px) {

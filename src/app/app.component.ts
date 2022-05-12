@@ -9,8 +9,9 @@ import { animations, buildRouteTransition } from 'ngx-animations'
     trigger('routeAnimation', [
       buildRouteTransition({
         stateChangeExpr: '* => *', 
-        enter: animations.fadeIn(800),
-        leave: animations.fadeOut(800),
+
+        enter: animations.zoomInRight(800),
+        leave: animations.zoomInRight(800),
       }),
     ]),
   ],

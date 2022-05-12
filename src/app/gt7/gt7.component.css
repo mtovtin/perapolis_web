@@ -273,7 +273,7 @@ html {
   border-radius: 5px;
   opacity: 0.5;
   text-align: left;
-  font-size: 28px;
+  font-size: 26px;
   font-family: 'Public Sans', sans-serif;
   font-weight: lighter;
   
@@ -328,7 +328,7 @@ html {
           font-size: 43px;}
       
           button{
-            font-size: 18px;
+            font-size: 16px;
             height: 70px;
       width: 300px !important;
           }
@@ -379,3 +379,15 @@ html {
         margin-bottom: 10px;
       }
       
+
+      #subtitle{
+        font-family:"Hatton Medium";
+      }
+
+
+
+      li a {
+        color: rgb(102, 103, 171)!important;
+        font-size: 6vw;
+        font-family: "Hatton Semibold";
+      }
