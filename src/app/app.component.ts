@@ -8,11 +8,6 @@ import { animations, buildRouteTransition } from 'ngx-animations'
   animations: [
     trigger('routeAnimation', [
       buildRouteTransition({
-        stateChangeExpr: "FruitsPage => AnimalsPage",
-
-        enter: animations.fadeIn(500)
-      }),
-      buildRouteTransition({
         stateChangeExpr: '* => *', 
         enter: animations.fadeIn(800),
         leave: animations.fadeOut(800),

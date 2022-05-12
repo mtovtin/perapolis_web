@@ -344,8 +344,8 @@ font-size: 48px;
 
 @media (max-width: 568px) {
 #ok1{
-  width:40px;
-  margin-left: -10px;
+  width:80px;
+  margin-left: -5px;
 }
 
 }
