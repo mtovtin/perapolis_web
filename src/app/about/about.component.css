@@ -121,17 +121,23 @@ li a {
   right: 20px;
   bottom: 10%;
   font-family: "Caudex", serif;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 #socials {
-  line-height: 1.2em;
+  line-height: 1em;
+  width: 5px;
   text-orientation: mixed;
   color: white;
   position: fixed;
   left: 20px;
   bottom: 10%;
   background-color: white !important;
+}
+
+#socials img {
+  width: 20px;
+  margin-bottom: 10px;
 }
 
 #logo {
