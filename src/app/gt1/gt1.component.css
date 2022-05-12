@@ -349,3 +349,11 @@ font-size: 48px;
 }
 
 }
+
+@media (max-width: 450px) {
+  #ok1{
+    width:80px;
+    margin-left: -10%;
+  }
+  
+  }
