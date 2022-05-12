@@ -99,22 +99,27 @@
     src:  url("src/assets/images/PPHatton-Medium.otf") format("opentype");
   }
   
-      .hor {
-        width: 1px;
-        border-left: 1px solid white;
-        height: 10vw;
-        position: relative;
-        margin: auto;
-        margin-bottom: 20px;
-        margin-top: 14px;
-   
-      }
-   
-      .other a{
-          font-size: 24px;
-          font-family: 'Public Sans', sans-serif;
-      }
-   
+  .hor {
+    width: 1px;
+    border-left: 1px solid white;
+    height: 5vw;
+    position: relative;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+  .other {
+  
+  
+  
+  }
+  
+  
+  .other a {
+  
+    font-size: 12px;
+    font-family: "Public Sans", sans-serif;
+  }
       .rem {
         width: 180px;
       }
