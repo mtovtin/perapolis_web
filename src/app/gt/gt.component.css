@@ -31,11 +31,11 @@
     -ms-filter: blur(10px);
     filter: blur(10px);
     position:fixed;
-    -webkit-transition: all 3s linear;
-    transition        : all 3s linear;
-    -moz-transition   : all 3s linear;
-    -webkit-transition: all 3s linear;
-    -o-transition     : all 3s linear;
+    -webkit-transition: all 1s linear;
+    transition        : all 1s linear;
+    -moz-transition   : all 1s linear;
+    -webkit-transition: all 1s linear;
+    -o-transition     : all 1s linear;
   }
   .blur-off {
     -webkit-filter: blur(0px) !important;
@@ -206,7 +206,7 @@ pre{
 
 
 #logo img{
-  width: 30em;
+  width: 24em;
 }
 
 
@@ -393,4 +393,26 @@ margin-bottom: 40px;
 
 #subtitle{
   font-family:"Hatton Medium";
+}
+
+#menu_icon{
+  margin-top: 6px; 
+ }
+ @media (min-width: 860px) {
+   #menu_icon{
+   margin-top: 14px;
+ }
+ 
+ 
+ }
+ 
+
+ .hor{
+  margin-top: 26px;
+  border-left: 1px solid #6667ab;
+}
+
+li a {
+
+  font-size: 7vw;
 }

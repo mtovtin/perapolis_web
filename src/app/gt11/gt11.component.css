@@ -24,11 +24,11 @@ html {
     filter: blur(10px);
     position:fixed;
   
-    -webkit-transition: all 3s linear;
-    transition        : all 3s linear;
-    -moz-transition   : all 3s linear;
     -webkit-transition: all 1s linear;
-    -o-transition     : all 3s linear;
+    transition        : all 1s linear;
+    -moz-transition   : all 1s linear;
+    -webkit-transition: all 1s linear;
+    -o-transition     : all 1s linear;
   }
   .blur-off {
     -webkit-filter: blur(0px) !important;
@@ -183,7 +183,7 @@ html {
 
   }
   #logo img{
-    width: 30em;
+    width: 24em;
   }
   
   @media (max-width: 768px) {
@@ -909,4 +909,25 @@ padding-top: 50px;
         color: rgb(102, 103, 171)!important;
         font-size: 6vw;
         font-family: "Hatton Semibold";
+      }
+
+
+      #menu_icon{
+        margin-top: 6px; 
+       }
+       @media (min-width: 860px) {
+         #menu_icon{
+         margin-top: 14px;
+       }
+       
+       
+       }
+       .hor{
+        margin-top: 26px;
+        border-left: 1px solid #6667ab;
+      }
+
+      li a {
+
+        font-size: 7vw;
       }

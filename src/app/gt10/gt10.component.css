@@ -46,3 +46,23 @@ video {
     font-size: 6vw;
     font-family: "Hatton Semibold";
   }
+
+  #menu_icon{
+    margin-top: 6px; 
+   }
+   @media (min-width: 860px) {
+     #menu_icon{
+     margin-top: 14px;
+   }
+   
+   
+   }
+   .hor{
+    margin-top: 26px;
+    border-left: 1px solid #6667ab;
+  }
+
+  li a {
+
+    font-size: 7vw;
+  }

@@ -24,11 +24,11 @@ nav {
   filter: blur(10px);
   position:fixed;
 
-  -webkit-transition: all 3s linear;
-  transition        : all 3s linear;
-  -moz-transition   : all 3s linear;
   -webkit-transition: all 1s linear;
-  -o-transition     : all 3s linear;
+  transition        : all 1s linear;
+  -moz-transition   : all 1s linear;
+  -webkit-transition: all 1s linear;
+  -o-transition     : all 1s linear;
 }
 .blur-off {
   -webkit-filter: blur(0px) !important;
@@ -104,13 +104,11 @@ li a {
   position: relative;
   margin: auto;
   margin-bottom: 40px;
-  margin-top: 20px;
+  margin-top: 26px;
 }
-.other {
 
 
 
-}
 
 
 .other a {
@@ -187,7 +185,7 @@ height: auto;
   color: white;
 }
 #logo img{
-  width: 22em;
+  width: 24em;
 }
 
 @media (max-width: 768px) {
@@ -233,3 +231,16 @@ padding-bottom: 150px;
 }
 
 }
+#menu_icon{
+ margin-top: 6px; 
+}
+@media (min-width: 860px) {
+  #menu_icon{
+  margin-top: 14px;
+}
+
+
+}
+
+  
+  
