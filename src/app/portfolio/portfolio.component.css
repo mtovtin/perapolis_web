@@ -390,9 +390,7 @@ padding-bottom: 150px;
   }
   
 }
-*{
-  background-color: #88a8be !important;
-}
+
 @media (max-width: 860px) {
   #logo img{
   width: 300px;
@@ -511,4 +509,49 @@ li a {
 li a {
 
   font-size: 7vw;
+}
+
+
+#tx1{
+  transition: all .2s ease-in-out;
+
+}
+
+
+.tx6{
+  transition: all .2s ease-in-out;
+}
+
+.tx5{
+  transition: all .2s ease-in-out;
+}
+
+
+
+
+#tx3{
+  transition: all .2s ease-in-out;
+}
+
+
+
+#tx1 :hover{
+  transform: skew(-0.06turn, 18deg);
+
+
+}
+
+.tx5 :hover{
+  transform: skew(15deg, 15deg);
+}
+
+.tx6 :hover{
+  transform: skew(15deg, 15deg);
+}
+
+
+
+
+#tx3 :hover{
+  transform: skew(-0.06turn, 18deg);
 }
