@@ -155,8 +155,8 @@
    #gt {
         line-height: 1.2em;
     text-orientation: mixed;
-        color: black;
-padding-top: 50px;
+        color: #14393F;
+
         font-family: 'Hatton Medium';
         font-size: 64px;
         top: 50px;
@@ -267,9 +267,9 @@ pre{
 }
 
 .subtitleLight{
-    font-size: 30px;
+    font-size: 18px;
     color: #14393F;
-    font-family: 'Hatton Ultralight';
+    font-family: 'Hatton Medium';
     text-align: center;
     margin: auto;
     width: 55%;
@@ -304,14 +304,14 @@ text-align: center;
 
 .wrapper1 {
 
-    font-size: 24px;
+    font-size: 22px;
     color: black;
     font-family: 'Public Sans', sans-serif;
     font-weight:100;
-    text-align: center;
+    text-align: left;
     margin: auto;
     width: 80%;
-    margin-top: 80px;
+    margin-top: -20px;
     margin-bottom: 40px;
     line-height: 1.2em;
     display:flex; flex-direction: row; justify-content: space-around; align-items: center
@@ -415,4 +415,65 @@ margin-bottom: 40px;
 li a {
 
   font-size: 7vw;
+}
+
+#logo {
+  line-height: 1.2em;
+  text-orientation: mixed;
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 3%;
+  
+}
+.wrapper1 span{
+display: inline-block;
+width: 240px;
+}
+@media (max-width: 1000px) {
+.wrapper1 span {
+width: 100%;
+margin-bottom: 40px;
+}
+.wrapper1{
+  display: flex;
+  flex-direction: column;
+}
+.rem{
+  font-size: 0;
+}
+
+.d{
+width: 0;
+}
+
+.wrapper{
+  margin-top: -20px;
+}
+
+.r{
+  margin-bottom: 40px;
+}
+}
+
+.r{
+  font-size: 0;
+
+}
+
+@media (max-width: 1000px) {
+  .r{
+    font-size: 40px;
+    color: #14393F;
+    font-family: 'Hatton Medium';
+  }
+
+  .k{
+    text-align: center;
+  }
+
+  .a{
+    margin-top: 150px;
+  }
+  
 }
