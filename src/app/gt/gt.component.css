@@ -398,6 +398,9 @@ margin-bottom: 40px;
 #menu_icon{
   margin-top: 6px; 
  }
+ .d img{
+  width: 2em;
+}
  @media (min-width: 860px) {
    #menu_icon{
    margin-top: 14px;
@@ -430,7 +433,7 @@ li a {
 display: inline-block;
 width: 240px;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
 .wrapper1 span {
 width: 100%;
 margin-bottom: 40px;
@@ -445,6 +448,10 @@ margin-bottom: 40px;
 
 .d{
 width: 0;
+
+}
+.d img{
+  width: 0;
 }
 
 .wrapper{
@@ -461,7 +468,7 @@ width: 0;
 
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .r{
     font-size: 40px;
     color: #14393F;
@@ -477,3 +484,4 @@ width: 0;
   }
   
 }
+
