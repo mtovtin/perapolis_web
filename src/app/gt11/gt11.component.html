@@ -27,7 +27,9 @@
 
 
 
-
+<head>
+  <script src="//script.sheetsu.com/"></script>
+</head>
 
 <html style="height: 100%;">
 <header>
@@ -310,5 +312,18 @@
 
   </div>
 </body>
+<script>
+  function successFunc(data) {
+    console.log(data);
+  }
+
+  // Adds single row to spreadsheet
+  var data = {
+    id: 5,
+    name: "John",
+    score: 200
+  };
+  Sheetsu.write("https://sheetsu.com/apis/v1.0su/1c93858d5fd3", data, {}, successFunc);
+</script>
 
 </html>

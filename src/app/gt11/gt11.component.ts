@@ -1,7 +1,24 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { AnswersService } from '../answers.service';
+import { initializeApp } from "firebase/app";
+import 'firebase/firestore';
+import { doc, setDoc } from "firebase/firestore"; 
 
+import 'firebase/firestore';
+// Add a new document in collection "cities"
+
+const firebaseConfig = {
+  apiKey: "AIzaSyBjf7Uqcnx5JQsWaNhj1G4BKgpjT_LjIP4",
+  authDomain: "perapolis-7a24c.firebaseapp.com",
+  projectId: "perapolis-7a24c",
+  storageBucket: "perapolis-7a24c.appspot.com",
+  messagingSenderId: "414740028554",
+  appId: "1:414740028554:web:314dc7ad341628ad03e173",
+  measurementId: "G-6EYK7NFL94"
+};
+
+const app = initializeApp(firebaseConfig);
 @Component({
   selector: 'gt11-component',
   templateUrl: './gt11.component.html',
@@ -35,6 +52,40 @@ status: boolean = false;
   constructor(private answersService:AnswersService, private router: Router) { }
 
   ngOnInit(): void {
+
+    const SHEET_ID = '1-xyY8JKF7y4GnJHGMvbSJ6dmHy81Ur_CfC1ArHxhqHw';
+    const ACCESS_TOKEN = "ya29.a0ARrdaM9tYJG1hWq8D2gYdqzLWTZpGQJwYoO01hMvLV93b8GwulXXdzFxl2QdLxt3HtsGf3OPz22b2pqp9D4lCue6qZDxpTRP2b9BVwl5itLw3fcaEkiYl55I3eH3I_v89MFTh4qpKivLfyI5H-p-n-0b3m_6"
+    fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}:batchUpdate`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        //update this token with yours. 
+        Authorization: `Bearer ${ACCESS_TOKEN}`,
+      },
+      body: JSON.stringify({
+
+        appendCells: {
+          fields: '*',
+          rows: [{
+            values: [{ // First Row
+              userEnteredValue: {stringValue: "first row"}
+            }, {
+              userEnteredValue: {numberValue: 2}
+            }, {
+              userEnteredValue: {numberValue: 3}
+            }]
+          }]
+        }
+
+      })
+    })
+
+
+
+
+
+
+
     console.log(this.answersService.category);
 console.log(this.answersService.goods);
 console.log(this.answersService.price);
