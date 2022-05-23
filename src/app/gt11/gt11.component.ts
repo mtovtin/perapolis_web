@@ -1,24 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { AnswersService } from '../answers.service';
-import { initializeApp } from "firebase/app";
+import jspdf from 'jspdf';
+import * as $ from "jquery";
+import html2canvas from 'html2canvas';
 import 'firebase/firestore';
-import { doc, setDoc } from "firebase/firestore"; 
-
-import 'firebase/firestore';
+import { HttpClient } from '@angular/common/http';
+import jsPDF from 'jspdf';
 // Add a new document in collection "cities"
 
-const firebaseConfig = {
-  apiKey: "AIzaSyBjf7Uqcnx5JQsWaNhj1G4BKgpjT_LjIP4",
-  authDomain: "perapolis-7a24c.firebaseapp.com",
-  projectId: "perapolis-7a24c",
-  storageBucket: "perapolis-7a24c.appspot.com",
-  messagingSenderId: "414740028554",
-  appId: "1:414740028554:web:314dc7ad341628ad03e173",
-  measurementId: "G-6EYK7NFL94"
-};
 
-const app = initializeApp(firebaseConfig);
+
+
 @Component({
   selector: 'gt11-component',
   templateUrl: './gt11.component.html',
@@ -26,7 +19,7 @@ const app = initializeApp(firebaseConfig);
 })
 export class Gt11Component implements OnInit {
 
-
+ 
   reason: string | undefined;
   brandName: string | undefined;
   category: any;
@@ -49,12 +42,30 @@ str4: any;
 status: boolean = false;
   a: any;
 
-  constructor(private answersService:AnswersService, private router: Router) { }
+  constructor(private answersService:AnswersService, private router: Router,private http: HttpClient) { }
+
+  public captureScreen()  
+  {  
+    var doc = new jsPDF('p', 'pt', 'a4',true);  
+    var width = doc.internal.pageSize.getWidth();
+var height = doc.internal.pageSize.getHeight();
+var getContent = "<h2 style='color:#6667ab; font-family:'Hatton Medium; text-align:center; margin:auto' >results</h2><div style=' margin-left:10px; width:550px; font-size:14px; color:black'>"+$('#pri').html()+"</div>";
+ 
+    doc.html(getContent, {
+
+   
+       callback: function (doc) {
+         doc.save();
+       },
+       "width":width
+    });
+  } 
+
 
   ngOnInit(): void {
-
+this.http.post('https://steamapp-581f5-default-rtdb.firebaseio.com/two.json',{brand_name:this.answersService.brandName, category: this.answersService.category, goods: this.answersService.goods, price: this.answersService.price}).subscribe(response=>console.log(response))
     const SHEET_ID = '1-xyY8JKF7y4GnJHGMvbSJ6dmHy81Ur_CfC1ArHxhqHw';
-    const ACCESS_TOKEN = "ya29.a0ARrdaM9tYJG1hWq8D2gYdqzLWTZpGQJwYoO01hMvLV93b8GwulXXdzFxl2QdLxt3HtsGf3OPz22b2pqp9D4lCue6qZDxpTRP2b9BVwl5itLw3fcaEkiYl55I3eH3I_v89MFTh4qpKivLfyI5H-p-n-0b3m_6"
+    const ACCESS_TOKEN = "ya29.a0ARrdaM_3WkZY0pPrVx4_J8ZGeerbIrebLzzryKLfnGYX3Q9UCJHcgcjW9UaQfjuLG0nFtl80Y481f6fonTy6FehS2yThZvcjc_Qb7EqDLXLUfRtigrerHmuBaWqntZHIEkTATAsinjDe35p14esPAwwLbwoi"
     fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}:batchUpdate`, {
       method: "POST",
       headers: {
@@ -64,25 +75,131 @@ status: boolean = false;
       },
       body: JSON.stringify({
 
-        appendCells: {
-          fields: '*',
-          rows: [{
-            values: [{ // First Row
-              userEnteredValue: {stringValue: "first row"}
-            }, {
-              userEnteredValue: {numberValue: 2}
-            }, {
-              userEnteredValue: {numberValue: 3}
-            }]
-          }]
-        }
-
+        requests: [{
+          appendCells: {
+          
+        
+            rows: [
+              {
+                values: [
+                  {
+                    userEnteredValue: {
+                      "stringValue": this.answersService.brandName,
+                  
+                  
+                    }
+                    
+                  },
+                  {
+                    userEnteredValue: {
+    
+                      "stringValue": this.answersService.category
+                  
+                    }
+                    
+                    
+                  },
+                  {
+                    userEnteredValue: {
+    
+                      "stringValue": this.answersService.goods
+                  
+                    }
+                    
+                    
+                  },
+                  {
+                    userEnteredValue: {
+    
+                      "stringValue": this.answersService.price
+                  
+                    }
+                    
+                    
+                  },
+                  {
+                    userEnteredValue: {
+    
+                      "stringValue": this.answersService.clients
+                  
+                    }
+                    
+                    
+                  },
+                  {
+                    userEnteredValue: {
+    
+                      "stringValue": this.answersService.age
+                  
+                    }
+                    
+                    
+                  },
+                  {
+                    userEnteredValue: {
+    
+                      "stringValue": this.answersService.communication
+                  
+                    }
+                    
+                    
+                  },
+                  {
+                    userEnteredValue: {
+    
+                      "stringValue": this.answersService.proposition
+                  
+                    }
+                    
+                    
+                  },
+                  {
+                    userEnteredValue: {
+    
+                      "stringValue": this.answersService.reason
+                  
+                    }
+                    
+                    
+                  },
+                  {
+                    userEnteredValue: {
+    
+                      "stringValue": this.answersService.c
+                  
+                    }
+                    
+                    
+                  },
+                  {
+                    userEnteredValue: {
+    
+                      "stringValue": JSON.stringify(this.answersService.g)
+                  
+                    }
+                    
+                    
+                  },
+                  {
+                    userEnteredValue: {
+    
+                      "stringValue": this.answersService.a
+                  
+                    }
+                    
+                    
+                  }
+                ]
+              }
+            ],
+            fields: "*"
+          }
+        }]
       })
     })
 
 
-
-
+  
 
 
 
@@ -218,5 +335,8 @@ if ((this.proposition=="Product"&&this.reason=="Return on Investment")||
     this.status = !this.status;  
   }
 
+  goToNext(){
 
+    this.router.navigateByUrl('gt10-component')
+  }
 }
