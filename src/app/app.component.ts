@@ -10,8 +10,8 @@ import { animations, buildRouteTransition } from 'ngx-animations'
       buildRouteTransition({
         stateChangeExpr: '* => *', 
 
-        enter: animations.fadeIn(800),
-        leave: animations.fadeOut(800),
+        enter: animations.fadeIn(400),
+        leave: animations.fadeOut(400),
       }),
     ]),
   ],

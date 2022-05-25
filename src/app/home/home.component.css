@@ -7,12 +7,7 @@
 
 
 
-body {
-  padding-bottom: 800px;
-  background-size: 100vw auto;
-  background-repeat: no-repeat;
 
-}
 *{
 
 }
@@ -168,11 +163,7 @@ li a {
   right: 3%;
 }
 
-body {
 
-height: auto;
-
-}
 
 .subtitle {
   font-size: 40px;
@@ -198,15 +189,12 @@ height: auto;
   .col-xs-12 {
     text-align: center;
   }
-  body{
-    padding-left: 30px;
-    padding-right: 30px;
-  }
   nav .show {
 
-padding-bottom: 150px;
-  
-  }
+    padding-bottom: 150px;
+      
+      }
+
   #logo img{
   width: 25em;
   }  
@@ -221,23 +209,14 @@ padding-bottom: 150px;
   }
 
   html{
-    margin-bottom: 400px;
+
 
   }
 
-  body{
-    margin-bottom: 400px;
 
-  }
 }
 
-body {
-  background-image: url('/../assets/images/background.png');
-}
 
-body{
-  height: 150vw;
-}
 
 
 #contact {
@@ -267,3 +246,5 @@ body{
   width: 22px;
   margin-bottom: 10px;
 }
+
+

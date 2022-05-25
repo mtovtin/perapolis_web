@@ -63,7 +63,7 @@ var getContent = "<h2 style='color:#6667ab; font-family:'Hatton Medium; text-ali
 
 
   ngOnInit(): void {
-this.http.post('https://steamapp-581f5-default-rtdb.firebaseio.com/two.json',{brand_name:this.answersService.brandName, category: this.answersService.category, goods: this.answersService.goods, price: this.answersService.price}).subscribe(response=>console.log(response))
+this.http.post('https://steamapp-581f5-default-rtdb.firebaseio.com/two.json',{brand_name:this.answersService.brandName, category: this.answersService.category, goods: this.answersService.goods, price: this.answersService.price, clients: this.answersService.clients, age: this.answersService.age, communication: this.answersService.communication, proposition: this.answersService.proposition, reason: this.answersService.reason, target_profile: this.answersService.c, pod: JSON.stringify(this.answersService.g), market_segment: JSON.stringify(this.answersService.a) }).subscribe(response=>console.log(response))
     const SHEET_ID = '1-xyY8JKF7y4GnJHGMvbSJ6dmHy81Ur_CfC1ArHxhqHw';
     const ACCESS_TOKEN = "ya29.a0ARrdaM_3WkZY0pPrVx4_J8ZGeerbIrebLzzryKLfnGYX3Q9UCJHcgcjW9UaQfjuLG0nFtl80Y481f6fonTy6FehS2yThZvcjc_Qb7EqDLXLUfRtigrerHmuBaWqntZHIEkTATAsinjDe35p14esPAwwLbwoi"
     fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}:batchUpdate`, {

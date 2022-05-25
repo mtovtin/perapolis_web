@@ -18,10 +18,12 @@ import { Gt10Component } from './gt10/gt10.component';
 import { Gt11Component } from './gt11/gt11.component';
 import {PosuereComponent} from './posuere/posuere.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
+  {path: 'home-component', component: HomeComponent},
   { path: 'about-component', component: AboutComponent },
   { path: 'services-component', component: ServicesComponent },
   { path: 'gt-component', component: GtComponent },
@@ -38,6 +40,7 @@ const routes: Routes = [
   {path: 'gt11-component', component: Gt11Component,  data: { animation: "i" }},
   {path: 'portfolio-component', component: PortfolioComponent},
   {path: 'posuere-component', component: PosuereComponent},
+  {path: 'contact-component', component: ContactComponent},
   {path: 'navbar', component: NavbarComponent},
 ];
 

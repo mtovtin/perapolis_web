@@ -66,3 +66,7 @@ video {
 
     font-size: 7vw;
   }
+
+  *{
+    background-color: black;
+  }
