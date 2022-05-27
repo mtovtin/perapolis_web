@@ -300,3 +300,10 @@ html {
   
 
   }
+
+  @media (max-width: 800px) {
+
+  #h{
+    margin-right: -30px;
+  }
+}
