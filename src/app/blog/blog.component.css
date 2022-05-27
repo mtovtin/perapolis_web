@@ -3,17 +3,17 @@ html {
   
   }
   *{
-    background-color:#14393F !important;
+    background-color:#EBEBFF !important;
   }
   
   nav {
   
-    background-color: #14393F;
+    background-color: #EBEBFF;
     opacity: 0.5;
     z-index: 1;
     text-align: center;
     width: 100%;
-    color: white;
+    color: #6667AB;
   }
   
   .blur-on, .blur-element {
@@ -76,7 +76,7 @@ html {
   }
   
   li a {
-    color: white!important;
+    color: #6667AB !important;
     font-size: 7vw;
     font-family: "Hatton Semibold", Arial, Helvetica, sans-serif;
   }
@@ -99,7 +99,7 @@ html {
   
   .hor {
     width: 1px;
-    border-left: 1px solid white;
+    border-left: 1px solid #6667AB;;
     height: 5vw;
     position: relative;
     margin: auto;
@@ -163,7 +163,7 @@ html {
   }
   
   body {
-    background-color: #14393F;
+    background-color: #EBEBFF;
   height: auto;
   
   }
@@ -216,12 +216,12 @@ html {
   
     html{
       margin-bottom: 400px;
-      background-color: #14393F;
+      background-color: #EBEBFF;
     }
   
     body{
       margin-bottom: 400px;
-      background-color: #14393F;
+      background-color: #EBEBFF;
     }
   }
   
@@ -244,7 +244,7 @@ html {
   
 
   *{
-      background-color: #14393F;
+      background-color: #EBEBFF;
   }
     
     
@@ -264,4 +264,39 @@ html {
         margin-left: 10px;
   }
   
+  }
+
+  #linew {
+    margin-top: 150px;
+  }
+
+
+  .gg{
+      font-size: 45px;
+  }
+
+
+  .gg1{
+    font-size: 20px;
+  }
+  .r{
+    width: 25rem;
+  }
+
+  @media (max-width: 1000px) {
+    .gg{
+        font-size: 40px;
+        text-align: center;
+    }
+  
+    .r{
+        width: 100%;
+      }
+    
+    .gg1{
+      font-size: 15px;
+      text-align: center;
+    }
+  
+
   }

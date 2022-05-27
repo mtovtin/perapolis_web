@@ -19,6 +19,7 @@ import { Gt11Component } from './gt11/gt11.component';
 import {PosuereComponent} from './posuere/posuere.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ContactComponent } from './contact/contact.component';
+import { BlogComponent } from './blog/blog.component';
 
 
 const routes: Routes = [
@@ -42,6 +43,7 @@ const routes: Routes = [
   {path: 'posuere-component', component: PosuereComponent},
   {path: 'contact-component', component: ContactComponent},
   {path: 'navbar', component: NavbarComponent},
+  {path: 'blog-component', component: BlogComponent},
 ];
 
 @NgModule({

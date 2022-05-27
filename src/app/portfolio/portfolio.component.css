@@ -555,3 +555,7 @@ li a {
 #tx3 :hover{
   transform: skew(-0.06turn, 18deg);
 }
+
+*{
+  background-color: #88a8be;
+}
