@@ -292,8 +292,8 @@
 
             <div (click)="captureScreen()"
               style="text-align: center; font-size: 22px; font-family: 'Public Sans'; color: #88A8BE;"
-              class="txt col-md-12 col-lg-12 col-xs-12">
-              Download the report <img style="margin-bottom: 10px; " src='assets/images/down.png'>
+              class="txt col-md-12 col-lg-12 col-xs-12">  <a style="text-align: center; font-size: 22px; font-family: 'Public Sans'; color: #88A8BE; text-decoration: none;" href="assets/images/Golden Thread Report.pdf" download="your golden thread">
+              Download the demo version of the report <img style="margin-bottom: 10px; " src='assets/images/down.png'></a>
             </div>
           </div>
 
@@ -308,39 +308,3 @@
         </div>
 
 
-
-
-
-
-
-
-
-        <div id='demo'
-          style="margin-top: 100px; padding-bottom: 60px; font-style: 10px; font-family: 'Inter'; color: #14393F; text-align: center;">
-          Please keep in mind that this is a demo version of the website that excludes pricing specifications.</div>
-
-      </div>
-      <div style="font-size: 12px; color: white; font-family: 'Public Sans'; text-align: center; padding-bottom: 40px;">
-        © 2022 PERAPOLIS</div>
-
-
-
-    </div>
-  </div>
-</body>
-<script>
-  function successFunc(data) {
-    console.log(data);
-  }
-
-  // Adds single row to spreadsheet
-  var data = {
-    id: 5,
-    name: "John",
-    score: 200
-  };
-  Sheetsu.write("https://sheetsu.com/apis/v1.0su/1c93858d5fd3", data, {}, successFunc);
-
-</script>
-
-</html>
