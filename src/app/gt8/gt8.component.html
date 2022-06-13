@@ -53,25 +53,30 @@
 <body [ngClass]="status ? 'blur-on' : 'blur-off'">
   <div [ngClass]="status ? 'pd' : 'pd-off'">
   <div style="background-color: #E0E7ED;">
-
     <div id="logo"><a  href="home-component"><img src='assets/images/Logop.png'></a></div>
     <div id="subtitle">A formula for a brand's successful strategic path within the luxury multiverse.</div>
     <!-- <div id="menu_icon"><img src='/../assets/images/Menu Icon.png'></div> -->
- <div id="st">
+  <div id="st">
     <div id="wrapper">
-      <div id="inp" style="margin-top: 200px; margin-bottom: 20px; color: black;  font-family: 'Hatton Medium';">INPUT 8</div>
+      <div id="inp" style="margin-top: 200px; margin-bottom: 20px; color: black;  font-family: 'Hatton Medium';">INPUT 9</div>
       <div id="inp1"
-        style="margin-top: -20px;color: black; font-family: 'Public sans'; font-weight: lighter;">
-        What is your company's unique purchase proposition?</div>
-        <div id="inp2" style="margin-top:10px;margin-bottom:30px;  font-weight: 200;  font-size: 22px;">The one thing that makes your business better than the competition.</div>
-      <div class="btn-group-vertical">
-        <div><button  (click)="goToNext('Product')" type="button" class="btn btn-default">Product</button></div>
-        <div> <button (click)="goToNext('Service')" type="button" class="btn btn-default">Service</button></div>
-        <div><button (click)="goToNext('Community')" type="button" class="btn btn-default">Community</button></div>
-        <div> <button (click)="goToNext('Status')" type="button" class="btn btn-default">Status</button></div>
-        <div><button (click)="goToNext('Personalization')" type="button" class="btn btn-default">Personalization</button></div>
-        <div> <button (click)="goToNext('Heritage')" type="button" class="btn btn-default">Heritage</button></div>
-        <div> <button (click)="goToNext('Self-Indulgence')" style="margin-bottom: 200px;" type="button" class="btn btn-default">Self-Indulgence</button></div>
+        style="margin-top: -20px;color: black;  font-family: 'Public sans'; font-weight: lighter; ">
+        What is your client's reason to purchase?</div>
+        <div id="ka" style="font-weight: 200;  font-size: 22px; ">
+        <div class="inp2" style="margin-top:-5px;"><b>Prestige</b> - a need for an upwards hierarchic feeling, acknowledgement;</div>
+        <div  class="inp2" ><b>Return on the investment</b> - seeking the best benefit to price ratio, finding a qualitative product with a good price;</div>
+        <div  class="inp2" ><b>For a greater cause</b> - affiliation for a deeper purpose, a community united mission;</div>
+        <div  class="inp2" ><b>Exclusive ownership</b> - craving pleasure and deep enjoyment from life;</div>
+        <div  class="inp2" ><b>Product iconicity</b> - a need for celebrating one's accomplishments through product symbols widely recognizable to the public;</div>
+        <div  class="inp2"  style="margin-bottom:30px;"><b>Niche knowledge</b> - a need for cryptic messages, profound meanings, comprehension of concepts.</div>
+      </div>
+        <div class="btn-group-vertical">
+        <div><button (click)="goToNext('Prestige')" type="button" class="btn btn-default">Prestige</button></div>
+        <div> <button (click)="goToNext('Return on Investment')" type="button" class="btn btn-default">Return on investment</button></div>
+        <div><button (click)="goToNext('For a greater cause')" type="button" class="btn btn-default">For a greater cause</button></div>
+        <div> <button (click)="goToNext('Exclusive ownership')" type="button" class="btn btn-default">Exclusive ownership</button></div>
+        <div><button (click)="goToNext('Product iconicity')" type="button" class="btn btn-default">Product iconicity</button></div>
+        <div> <button (click)="goToNext('Niche knowledge')" style="margin-bottom: 200px;" type="button" class="btn btn-default">Niche knowledge</button></div>
 
       </div>
       </div>
